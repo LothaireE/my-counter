@@ -1,0 +1,14 @@
+h1 {
+  font-size: 40px;
+}
+
+.myFormular {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.myInputs {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
