@@ -1,1 +1,17 @@
 /* Other rules */
+.myContainer {
+  width: 1024px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  border: darkblue solid 4px;
+}
+.myCounters {
+  border: tomato 4px solid;
+  display: flex;
+}
+.Counter {
+  border: 4px solid chartreuse;
+  height: 400px;
+  width: 200px;
+}
