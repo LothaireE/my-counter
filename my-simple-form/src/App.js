@@ -5,11 +5,11 @@ import Footer from "./components/Footer";
 import { useState } from "react";
 
 function App() {
-  const [username, setUsername] = useState("");
-
+  // const [username, setUsername] = useState("");
+  console.log(Form);
   return (
     <div>
-      <Form username={username} />
+      <Form name={"jjjj"} />
 
       <StepTwo />
       <Footer />

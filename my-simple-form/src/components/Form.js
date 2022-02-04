@@ -1,23 +1,4 @@
-const Form = ([username, setUsername]) => {
-  console.log("=======>", setUsername);
-  return (
-    <div>
-
-      <form onSubmit={
-          
-      }>
-        <input
-          type="text"
-          value={username}
-          onChange={(event) => {
-            console.log(event.target.value);
-            username = event.target.value;
-          }}
-        />
-
-        <input type="submit" />
-      </form>
-    </div>
-  );
+const Form = (props) => {
+  return <h1>llllllll {props.name} </h1>;
 };
 export default Form;
