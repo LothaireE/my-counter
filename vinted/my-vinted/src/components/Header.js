@@ -16,9 +16,9 @@ const Header = () => {
             <button>s'inscrire</button>
             <button>se connecter</button>
             <button>vends tes articles</button>
-            {/* <Link to={"/signup"} />
+            <Link to={"/signup"} />
             S'inscrire
-            <Link /> */}
+            <Link />
           </span>
         </div>
       </div>
